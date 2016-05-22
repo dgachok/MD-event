@@ -136,17 +136,12 @@ function mikhrin_and_co_site_styles() {
 
 	wp_enqueue_style( 'mikhrin-and-co-site-style', get_stylesheet_uri() );
 
-    wp_enqueue_style( 'bootstrap-style', get_template_directory_uri().'/dist/css/bootstrap.min.css');
+    wp_enqueue_style( 'bootstrap-style', get_template_directory_uri() . '/dist/css/bootstrap.min.css');
 
-	wp_enqueue_style( 'base-style', get_template_directory_uri().'/dist/css/style.min.css');
+	wp_enqueue_style( 'base-style', get_template_directory_uri() . '/dist/css/style.min.css');
 
 }
 add_action('wp_enqueue_scripts', 'mikhrin_and_co_site_styles');
-
-add_action( 'wp_enqueue_scripts', 'bootstrap_script' );
-function bootstrap_script(){
-	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/dist/js/bootstrap.min.js');
-}
 
 /**
  * Implement the Custom Header feature.

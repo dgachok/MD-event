@@ -1,0 +1,49 @@
+// Header
+
+.header{
+  color: #1a1a1a;
+  .header__social{
+    margin-top: 89px;
+    font-family: Verdana,sans-serif;
+    font-size: 12px;
+    padding: 0 53px;
+    line-height: 20.9px;
+    width: 333.33px;
+    @media screen and (max-width: 1000px) {
+      margin: 30px auto 0;
+      text-align: center;
+    }
+
+    strong{
+      font-size: 16px;
+      letter-spacing: 0.55px;
+    }
+  }
+  .header__logo{
+    margin-top: 26px;
+    margin-left: 18px;
+    margin-right: 18px;
+    padding: 0;
+    width: 225px;
+    @media screen and (max-width: 1000px) {
+      width: 224px;
+      margin: 26px auto 0;
+    }
+  }
+  .header__contact{
+    font-family: OpenSansSemiBold, sans-serif;
+    font-size: 30px;
+    padding-left: 56px;
+    margin-top: 109px;
+    line-height: 31px;
+    font-weight: 600;
+    width: 333.33px;
+    @media screen and (max-width: 1000px) {
+      text-align: center;
+      font-size: 20px;
+      margin: 20px auto;
+      padding: 0 20px;
+      width: 100%;
+    }
+  }
+}

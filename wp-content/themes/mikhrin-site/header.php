@@ -16,15 +16,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
 <div class="container">
-		<div class="row">
-			<div class="col-md-4">.col-md-4</div>
-			<div class="col-md-4">.col-md-4</div>
-			<div class="col-md-4">.col-md-4</div>
+		<div class="row header">
+			<div class="col-md-4 header__social"><strong>Event-агенство Mdr&Co</strong> Послуги вищого рівня! Організація усіх видів святкувань! Надійно! </div>
+			<div class="col-md-4 header__logo"><img src="/wp-content/themes/mikhrin-site/images/logo.jpg"></div>
+			<div class="col-md-4 header__contact">+38(095)82-03-168 +38(095)82-03-168 +38(095)82-03-168</div>
 		</div>
 </div>
 
