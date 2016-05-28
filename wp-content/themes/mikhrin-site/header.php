@@ -19,12 +19,115 @@
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	<!-- Indicators -->
+	<ol class="carousel-indicators">
+		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		<li data-target="#myCarousel" data-slide-to="1"></li>
+		<li data-target="#myCarousel" data-slide-to="2"></li>
+		<li data-target="#myCarousel" data-slide-to="3"></li>
+	</ol>
+
+	<!-- Wrapper for slides -->
+	<div class="carousel-inner" role="listbox">
+		<div class="item active">
+			<img src="/wp-content/themes/mikhrin-site/images/carousel/1.jpg">
+		</div>
+
+		<div class="item">
+			<img src="/wp-content/themes/mikhrin-site/images/carousel/2.jpg">
+		</div>
+
+		<div class="item">
+			<img src="/wp-content/themes/mikhrin-site/images/carousel/3.jpg" alt="Flower">
+		</div>
+
+		<div class="item">
+			<img src="/wp-content/themes/mikhrin-site/images/carousel/4.jpg" alt="Flower">
+		</div>
+	</div>
+</div>
 <div class="container">
 		<div class="row header">
-			<div class="col-md-4 header__social"><strong>Event-агенство Mdr&Co</strong> Послуги вищого рівня! Організація усіх видів святкувань! Надійно! </div>
+			<div class="col-md-4 header__text"><strong>Event-агенство Mdr&Co</strong> Послуги вищого рівня! Організація усіх видів святкувань! Надійно!
+				<div class="social">
+					<div class="social__border-top social__border-top--right"></div>
+					<div class="social__border-top social__border-top--left"></div>
+					<span class="social__title">Ми в соцмережах:</span>
+					<a class="social__icon social__icon--vk"><img src="/wp-content/themes/mikhrin-site/images/icons/vk.png"></a>
+					<a class="social__icon social__icon--facebook"><img src="/wp-content/themes/mikhrin-site/images/icons/facebook.png"></a>
+					<a class="social__icon social__icon--twitter"><img src="/wp-content/themes/mikhrin-site/images/icons/twitter.png"></a>
+					<div class="clear"></div>
+				</div>
+			</div>
 			<div class="col-md-4 header__logo"><img src="/wp-content/themes/mikhrin-site/images/logo.jpg"></div>
-			<div class="col-md-4 header__contact">+38(095)82-03-168 +38(095)82-03-168 +38(095)82-03-168</div>
+			<div class="col-md-4 header__contact">+38(095)82-03-168<br/> +38(095)82-03-168<br/> +38(095)82-03-168</div>
 		</div>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button class="navbar-toggle collapsed" aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" type="button">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Project name</a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="#">Home</a>
+						</li>
+						<li>
+							<a href="#">About</a>
+						</li>
+						<li>
+							<a href="#">Contact</a>
+						</li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" aria-expanded="false" aria-haspopup="true" role="button" data-toggle="dropdown" href="#">
+								Dropdown
+								<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">Action</a>
+								</li>
+								<li>
+									<a href="#">Another action</a>
+								</li>
+								<li>
+									<a href="#">Something else here</a>
+								</li>
+								<li class="divider" role="separator"></li>
+								<li class="dropdown-header">Nav header</li>
+								<li>
+									<a href="#">Separated link</a>
+								</li>
+								<li>
+									<a href="#">One more separated link</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active">
+							<a href="./">
+								Default
+								<span class="sr-only">(current)</span>
+							</a>
+						</li>
+						<li>
+							<a href="../navbar-static-top/">Static top</a>
+						</li>
+						<li>
+							<a href="../navbar-fixed-top/">Fixed top</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 </div>
 
 <div id="page" class="site">

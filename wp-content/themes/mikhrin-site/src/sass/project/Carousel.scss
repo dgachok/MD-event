@@ -1,0 +1,42 @@
+// Carousel
+
+.carousel{
+    position: absolute;
+}
+.carousel-inner > .item{
+  img{
+    height: 630px;
+  }
+}
+
+.carousel-indicators {
+  bottom: 36px;
+  left: 47%;
+  list-style: outside none none;
+  margin-left: -30%;
+  padding-left: 0;
+  position: absolute;
+  text-align: center;
+  width: 60%;
+  z-index: 15;
+  li{
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    margin: 0 6px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    &.active{
+      width: 11px;
+      height: 11px;
+      margin: 0;
+      background-color: #b13558;
+    }
+  }
+  @media screen and (max-width: 990px) {
+    left: 50%;
+  }
+}
