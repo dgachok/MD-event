@@ -84,22 +84,19 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="#">Project name</a>
+						<a class="navbar-brand" href="#">Меню</a>
 					</div>
 					<div id="navbar" class="navbar-collapse collapse">
 						<ul class="nav navbar-nav">
 							<li class="active">
-								<a href="#">Home</a>
+								<a href="#">Про Kam&Co</a>
 							</li>
 							<li>
-								<a href="#">About</a>
-							</li>
-							<li>
-								<a href="#">Contact</a>
+								<a href="#">Новини</a>
 							</li>
 							<li class="dropdown">
 								<a class="dropdown-toggle" aria-expanded="false" aria-haspopup="true" role="button" data-toggle="dropdown" href="#">
-									Dropdown
+									Послуги
 									<span class="caret"></span>
 								</a>
 								<ul class="dropdown-menu">
@@ -122,20 +119,19 @@
 									</li>
 								</ul>
 							</li>
-						</ul>
-						<ul class="nav navbar-nav navbar-right">
-							<li class="active">
-								<a href="./">
-									Default
-									<span class="sr-only">(current)</span>
-								</a>
+							<li>
+								<a href="#">Фото</a>
 							</li>
 							<li>
-								<a href="../navbar-static-top/">Static top</a>
+								<a href="#">Клієнти</a>
 							</li>
 							<li>
-								<a href="../navbar-fixed-top/">Fixed top</a>
+								<a href="#">Партнери</a>
 							</li>
+							<li>
+								<a href="#">Контакти</a>
+							</li>
+
 						</ul>
 					</div>
 				</div>
