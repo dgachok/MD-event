@@ -31,30 +31,39 @@
 	<!-- Wrapper for slides -->
 	<div class="carousel-inner" role="listbox">
 		<div class="item active">
-			<div style="width:100%;">
+			<div class="width__full">
 				<img src="/wp-content/themes/mikhrin-site/images/carousel/1.jpg">
 			</div>
+			<div class="wrap__label">
+				<img class="carousel__label" src="/wp-content/themes/mikhrin-site/images/carousel/label_1.png">
+			</div>
 		</div>
 
 		<div class="item">
-			<div style="width:100%;">
+			<div class="width__full">
 				<img src="/wp-content/themes/mikhrin-site/images/carousel/2.jpg">
 			</div>
-
+			<div class="wrap__label">
+				<img class="carousel__label" src="/wp-content/themes/mikhrin-site/images/carousel/label_1.png">
+			</div>
 		</div>
 
 		<div class="item">
-			<div style="width:100%;">
+			<div class="width__full">
 				<img src="/wp-content/themes/mikhrin-site/images/carousel/3.jpg" alt="Flower">
 			</div>
-
+			<div class="wrap__label">
+				<img class="carousel__label" src="/wp-content/themes/mikhrin-site/images/carousel/label_1.png">
+			</div>
 		</div>
 
 		<div class="item">
-			<div style="width:100%;">
+			<div class="width__full">
 				<img src="/wp-content/themes/mikhrin-site/images/carousel/4.jpg" alt="Flower">
 			</div>
-
+			<div class="wrap__label">
+				<img class="carousel__label" src="/wp-content/themes/mikhrin-site/images/carousel/label_1.png">
+			</div>
 		</div>
 	</div>
 </div>
@@ -72,7 +81,11 @@
 				</div>
 			</div>
 			<div class="col-md-4 header__logo"><img src="/wp-content/themes/mikhrin-site/images/logo.jpg"></div>
-			<div class="col-md-4 header__contact">+38(095)82-03-168<br/> +38(095)82-03-168<br/> +38(095)82-03-168</div>
+			<div class="col-md-4 header__contact">+38(095)82-03-168<br/> +38(095)82-03-168<br/> +38(095)82-03-168
+				<span class="icon__telephon">
+					<img src="/wp-content/themes/mikhrin-site/images/icons/telephon.png">
+				</span>
+			</div>
 		</div>
 		<div class="menu">
 			<nav class="navbar navbar-default">

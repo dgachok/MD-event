@@ -103,6 +103,7 @@
     line-height: 31px;
     font-weight: 600;
     width: 333.33px;
+    position: relative;
     letter-spacing: 0.3px;
     text-shadow:-1px -1px 1px rgba(255,255,255,0.2), /* наверх и влево */
                  1px 1px 1px rgba(255,255,255,0.2), /* вниз и вправо */
@@ -134,7 +135,7 @@
     font-size: 21px;
   }
   .navbar-default .navbar-nav > .active > a{
-    background-color: #6b2e6a;
+    background-color: $purple-color;
     color: #FFFFFF;
   }
   .navbar-default .navbar-nav > li > a{
@@ -143,7 +144,7 @@
     padding-right: 25px;
   }
   .navbar-default .navbar-nav > li:hover{
-    background-color: #6b2e6a;
+    background-color: $purple-color;
     opacity: 0.9;
     transition: background-color 1s ease-out 0s;
   }
@@ -156,7 +157,7 @@
 
   .menu .navbar-default .navbar-nav > li > a {
     color: #fff;
-    background-color: #6b2e6a;
+    background-color: $purple-color;
     opacity: 0.9;
   }
   .dropdown-menu{
@@ -175,7 +176,7 @@
   }
 
   .dropdown-menu > li > a:hover{
-    background-color: #6b2e6a;
+    background-color: $purple-color;
     opacity: 0.9;
     transition: background-color 1s ease-out 0s;
   }
@@ -195,7 +196,7 @@
       color: #FFFFFF;
     }
     .navbar-default .navbar-nav > .active > a{
-      background-color: #6b2e6a;
+      background-color: $purple-color;
       color: #FFFFFF;
     }
     .navbar-default .navbar-nav > li > a{
@@ -213,7 +214,7 @@
       border-radius: 5px;
       background-color: #000;
       opacity: 0.9;
-      border: 1px solid #6b2e6a;
+      border: 1px solid $purple-color;
       width: auto;
     }
     .dropdown-menu{
