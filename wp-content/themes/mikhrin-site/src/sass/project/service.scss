@@ -1,0 +1,20 @@
+.service{
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+  height: 325px;
+  padding: 0;
+}
+.service__image{
+  height: 250px;
+}
+.service__label{
+  display: block;
+  font-family: "Open Sans Condensed Light", sans-serif;
+  font-size: 24px;
+  color: #3e3e3e;
+  width: 140px;
+  margin: 10px auto 0;
+  text-align: center;
+  line-height: 24px;
+}

@@ -44,7 +44,7 @@
 				<img src="/wp-content/themes/mikhrin-site/images/carousel/2.jpg">
 			</div>
 			<div class="wrap__label">
-				<img class="carousel__label" src="/wp-content/themes/mikhrin-site/images/carousel/label_1.png">
+				<img class="carousel__label" src="/wp-content/themes/mikhrin-site/images/carousel/label_2.png">
 			</div>
 		</div>
 
@@ -53,7 +53,7 @@
 				<img src="/wp-content/themes/mikhrin-site/images/carousel/3.jpg" alt="Flower">
 			</div>
 			<div class="wrap__label">
-				<img class="carousel__label" src="/wp-content/themes/mikhrin-site/images/carousel/label_1.png">
+				<img class="carousel__label" src="/wp-content/themes/mikhrin-site/images/carousel/label_3.png">
 			</div>
 		</div>
 
@@ -62,7 +62,7 @@
 				<img src="/wp-content/themes/mikhrin-site/images/carousel/4.jpg" alt="Flower">
 			</div>
 			<div class="wrap__label">
-				<img class="carousel__label" src="/wp-content/themes/mikhrin-site/images/carousel/label_1.png">
+				<img class="carousel__label" src="/wp-content/themes/mikhrin-site/images/carousel/label_4.png">
 			</div>
 		</div>
 	</div>
@@ -142,7 +142,6 @@
 				</div>
 			</nav>
 		</div>
-</div>
 
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#main"><?php esc_html_e( 'Skip to content', 'mikhrin-and-co-site' ); ?></a>

@@ -11,8 +11,8 @@
 }
 
 .carousel-indicators {
-  bottom: 36px;
-  left: 47%;
+  bottom: 51px;
+  left: 48%;
   list-style: outside none none;
   margin-left: -30%;
   padding-left: 0;
@@ -39,5 +39,23 @@
   }
   @media screen and (max-width: 990px) {
     left: 50%;
+  }
+}
+
+.carousel-inner > .item > .wrap__label{
+  width: 596px;
+  height: 106px;
+  margin: -43px auto;
+  position: relative;
+  display: block
+}
+
+.carousel-inner > .item > .wrap__label > .carousel__label{
+  width: 596px;
+  height: 106px;
+  bottom: 192px;
+  position: absolute;
+  @media screen and (max-width: 990px) {
+    display: none;
   }
 }
