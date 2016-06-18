@@ -114,13 +114,13 @@
 								</a>
 								<ul class="dropdown-menu">
 									<li>
-										<a href="#">Action</a>
+										<a href="#">Комплексний супровід Horeca</a>
 									</li>
 									<li>
-										<a href="#">Another action</a>
+										<a href="#">Комплексний супровід Horeca</a>
 									</li>
 									<li>
-										<a href="#">Something else here</a>
+										<a href="#">Комплексний супровід Horeca</a>
 									</li>
 								</ul>
 							</li>

@@ -1,16 +1,20 @@
+.service_block{
+  margin-top: 280px;
+}
+
 .service{
-  display: block;
-  width: 250px;
+  display: inline-block;
   margin: 0 auto;
-  height: 325px;
+  overflow: hidden;
   padding: 0;
+  width: 25%;
 }
 .service__image{
   height: 250px;
 }
 .service__label{
   display: block;
-  font-family: "Open Sans Condensed Light", sans-serif;
+  font-family: "OpenSansCondensedLight", sans-serif;
   font-size: 24px;
   color: #3e3e3e;
   width: 140px;

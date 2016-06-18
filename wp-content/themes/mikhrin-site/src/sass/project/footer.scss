@@ -1,0 +1,50 @@
+.footer{
+  background: url(/wp-content/themes/mikhrin-site/images/footer/footer_background.png) top repeat-x;
+  width: 100%;
+}
+
+ul.footer__menu{
+  margin: 15px auto 45px;
+  padding: 0;
+  list-style-type: none;
+  font-size: 0;
+  width: 570px;
+  display: block;
+}
+
+.footer__menu li{
+  display: inline-block;
+  color: #000000;
+  padding: 10px 15px;
+}
+
+.footer__menu li:hover{
+  background-color: #fff;
+}
+
+.footer__menu .active{
+  background-color: #fff;
+}
+
+.footer__menu li > a{
+  color: #000000;
+  font-size: 18px;
+  font-family: "OpenSansCondensedLight", sans-serif;
+}
+.footer__menu li > a:hover{
+  text-decoration: none;
+}
+.brand_block{
+  display: block;
+  margin: 0 auto 55px;
+}
+.brand_block__brand_item{
+  display: inline-block;
+  margin-right: 16%;
+}
+.brand_block__brand_item:first-child{
+  margin-left: 5%;
+}
+.brand_block__brand_item:last-child{
+  margin-right: 5%;
+}

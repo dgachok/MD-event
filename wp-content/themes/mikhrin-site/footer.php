@@ -13,14 +13,24 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'mikhrin-and-co-site' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'mikhrin-and-co-site' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'mikhrin-and-co-site' ), 'mikhrin-and-co-site', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+	<footer class="footer">
+		<div class="container">
+			<ul class="footer__menu">
+				<li class="active"><a href="">Про Kam&Co</a></li>
+				<li><a href="">Новини</a></li>
+				<li><a href="">Послуги</a></li>
+				<li><a href="">Фото</a></li>
+				<li><a href="">Клієнти</a></li>
+				<li><a href="">Партнери</a></li>
+				<li><a href="">Контакти</a></li>
+			</ul>
+			<div class="brand_block">
+				<div class="brand_block__brand_item"><img src="/wp-content/themes/mikhrin-site/images/footer/footer_group.png"></div>
+				<div class="brand_block__brand_item"><img src="/wp-content/themes/mikhrin-site/images/footer/footer_logo.png"></div>
+				<div class="brand_block__brand_item"><img src="/wp-content/themes/mikhrin-site/images/footer/footer_diz.png"></div>
+			</div>
+		</div>
+	</footer>
 
 </body>
 </html>

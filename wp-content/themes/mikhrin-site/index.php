@@ -13,32 +13,36 @@
  */
 
 get_header(); ?>
+		<div class="row service_block">
+			<div class="col-md-3 service ">
+				<img src="/wp-content/themes/mikhrin-site/images/service/1.jpg" class="service__image">
+				<span class="service__label">Комплексний супровід Horeca</span>
+			</div>
+			<div class="col-md-3 service">
+				<img src="/wp-content/themes/mikhrin-site/images/service/2.jpg" class="service__image">
+				<span class="service__label">Комплексний супровід Horeca</span>
+			</div>
+			<div class="col-md-3 service">
+				<img src="/wp-content/themes/mikhrin-site/images/service/3.jpg" class="service__image">
+				<span class="service__label">Комплексний супровід Horeca</span>
+			</div>
+			<div class="col-md-3 service">
+				<img src="/wp-content/themes/mikhrin-site/images/service/4.jpg" class="service__image">
+				<span class="service__label">Комплексний супровід Horeca</span>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="trust">
+			Нам довіряють:
+		</div>
+		<div class="brand">
+			<img class="brand__item" src="/wp-content/themes/mikhrin-site/images/brand/cocacola.png" alt="coca-cola">
+			<img class="brand__item" src="/wp-content/themes/mikhrin-site/images/brand/uni.png" alt="unilever">
+			<img class="brand__item" src="/wp-content/themes/mikhrin-site/images/brand/moz.png" alt="mondelez">
+			<img class="brand__item" src="/wp-content/themes/mikhrin-site/images/brand/nest.png" alt="nestle">
+		</div>
+	</div>
 
-<div class="container">
-	<div class="row">
-		<div class="col-md-3 service">
-			<img src="/wp-content/themes/mikhrin-site/images/service/1.jpg" class="service__image">
-			<span class="service__label">Комплексний супровід Horeca</span>
-		</div>
-		<div class="col-md-3 service">
-			<img src="/wp-content/themes/mikhrin-site/images/service/2.jpg" class="service__image">
-			<span class="service__label">Комплексний супровід Horeca</span>
-		</div>
-		<div class="col-md-3 service">
-			<img src="/wp-content/themes/mikhrin-site/images/service/3.jpg" class="service__image">
-			<span class="service__label">Комплексний супровід Horeca</span>
-		</div>
-		<div class="col-md-3 service">
-			<img src="/wp-content/themes/mikhrin-site/images/service/4.jpg" class="service__image">
-			<span class="service__label">Комплексний супровід Horeca</span>
-		</div>
-		<div class="clear"></div>
-	</div>
-	<div class="trust">
-		Нам довіряють
-	</div>
-</div>
-</div>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 		<?php
@@ -74,6 +78,7 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
+</div><!-- #page -->
 
 <?php
 get_sidebar();

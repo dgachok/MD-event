@@ -1,12 +1,23 @@
 .trust{
   width: 208px;
   height: 57px;
-  font-size: 26px;
-  font-family: "Open Sans Condensed Bold", sans-serif;
+  font-size: 24px;
+  font-family: "OpenSansCondensedBold", sans-serif;
   margin: 42px auto 0;
-  padding: 16px 20px 16px 20px;
+  padding: 14px 18px 14px 18px;
   background-color: #f9f9f9;
   text-transform: uppercase;
   text-align: center;
   color: #8b8b8b;
+}
+
+.brand{
+  display: block;
+  margin: 22px 75px 50px;
+  font-size: 0;
+}
+
+.brand__item{
+  display: inline-block;
+  margin: 0 14px;
 }
