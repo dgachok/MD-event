@@ -1,5 +1,16 @@
 .service_block{
   margin-top: 280px;
+  @media screen and (max-width: 991px) {
+    margin-top: 10px;
+  }
+  @media screen and (max-width: 891px) {
+    width: 520px;
+    margin: 10px auto;
+  }
+  @media screen and (max-width: 551px) {
+    width: 250px;
+    margin: 10px auto;
+  }
 }
 
 .service{
@@ -8,6 +19,11 @@
   overflow: hidden;
   padding: 0;
   width: 25%;
+  @media screen and (max-width: 891px) {
+    width: 250px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
 }
 .service__image{
   height: 250px;
@@ -21,4 +37,31 @@
   margin: 10px auto 0;
   text-align: center;
   line-height: 24px;
+}
+.service_additional{
+  height: 250px;
+  width: 100%;
+  display: block;
+  padding: 30px 34px;
+  background: url(/wp-content/themes/mikhrin-site/images/service/background_service_additional.png) ;
+  text-align: left;
+  overflow: hidden;
+}
+.service_additional__border{
+  padding: 22px 0;
+  border-top: 4px solid rgba( 54, 17, 55, 0.7);
+  border-bottom: 4px solid rgba( 54, 17, 55, 0.7);
+}
+.service_additional__text{
+  font-family: Verdana, sans-serif;
+  font-size: 12px;
+  color: #fff;
+}
+.service_additional__title{
+  color: #fff;
+  font-size: 21px;
+  font-family: "OpenSansCondensedBold", sans-serif;
+  line-height: 20px;
+  margin-bottom: 10px;
+  text-align: center;
 }

@@ -1,6 +1,10 @@
 .footer{
   background: url(/wp-content/themes/mikhrin-site/images/footer/footer_background.png) top repeat-x;
   width: 100%;
+  padding-bottom: 50px;
+  @media screen and (max-width: 601px) {
+    padding-bottom: 10px;
+  }
 }
 
 ul.footer__menu{
@@ -10,12 +14,19 @@ ul.footer__menu{
   font-size: 0;
   width: 570px;
   display: block;
+  @media screen and (max-width: 601px) {
+    width: 400px;
+    margin: 15px auto 20px;
+  }
 }
 
 .footer__menu li{
   display: inline-block;
   color: #000000;
   padding: 10px 15px;
+  @media screen and (max-width: 601px) {
+    padding: 10px 7px;
+  }
 }
 
 .footer__menu li:hover{
@@ -30,6 +41,9 @@ ul.footer__menu{
   color: #000000;
   font-size: 18px;
   font-family: "OpenSansCondensedLight", sans-serif;
+  @media screen and (max-width: 601px) {
+    font-size: 15px;
+  }
 }
 .footer__menu li > a:hover{
   text-decoration: none;
@@ -37,14 +51,26 @@ ul.footer__menu{
 .brand_block{
   display: block;
   margin: 0 auto 55px;
+  width: 80%;
+  @media screen and (max-width: 601px) {
+    margin: 20px auto 0;
+  }
 }
 .brand_block__brand_item{
-  display: inline-block;
-  margin-right: 16%;
+  display: block;
+  height: 100%;
+  float: left;
+  width: 31%;
+  margin-right: 14%;
+  img{
+    width: 100%;
+  }
 }
 .brand_block__brand_item:first-child{
-  margin-left: 5%;
+  width: 20%;
+  margin-left: 0;
 }
 .brand_block__brand_item:last-child{
-  margin-right: 5%;
+  margin-right: 0;
+  width: 20%;
 }
