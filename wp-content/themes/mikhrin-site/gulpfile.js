@@ -13,7 +13,7 @@ var gulp = require('gulp'),
 gulp.task('sass', function () {
     gulp.src('src/sass/import.scss')
         .pipe(sass().on('error', sass.logError))
-        .pipe(uncss({ html: ['*.php', 'inc/*.php', 'template-parts/*.php'] }))
+        // .pipe(uncss({ html: ['*.php', 'inc/*.php', 'template-parts/*.php'] }))
         .pipe(autoprefixer({ browsers: ['> 1%', 'IE 7'], cascade: false }))
         .pipe(cleanCSS({compatibility: ''}))
         .pipe(rename('style.min.css'))

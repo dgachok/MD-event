@@ -33,7 +33,12 @@
                 <img src="/wp-content/themes/mikhrin-site/images/carousel/1.jpg">
             </div>
             <div class="wrap__label">
-                <img class="carousel__label" src="/wp-content/themes/mikhrin-site/images/carousel/label_1.png">
+                <img class="label_img" src="/wp-content/themes/mikhrin-site/images/icons/label_slider_img.png">
+                <span class="label__title">
+                    Твій персональний
+                    <p class="label__title--strong margin_top_10">event-менеджер</p>
+
+                </span>
             </div>
         </div>
 
@@ -42,7 +47,11 @@
                 <img src="/wp-content/themes/mikhrin-site/images/carousel/2.jpg">
             </div>
             <div class="wrap__label">
-                <img class="carousel__label" src="/wp-content/themes/mikhrin-site/images/carousel/label_2.png">
+                <img class="label_img" src="/wp-content/themes/mikhrin-site/images/icons/label_slider_img.png">
+                <span class="label__title">
+                    <p class="label__title--strong margin_bottom_10">Event-послуги</p>
+                європейського рівня
+                </span>
             </div>
         </div>
 
@@ -51,7 +60,11 @@
                 <img src="/wp-content/themes/mikhrin-site/images/carousel/3.jpg" alt="Flower">
             </div>
             <div class="wrap__label">
-                <img class="carousel__label" src="/wp-content/themes/mikhrin-site/images/carousel/label_3.png">
+                <img class="label_img" src="/wp-content/themes/mikhrin-site/images/icons/label_slider_img.png">
+                <span class="label__title">
+                    Професійний
+                    <p class="label__title--strong margin_top_10">event-outsourcing</p>
+                </span>
             </div>
         </div>
 
@@ -60,7 +73,11 @@
                 <img src="/wp-content/themes/mikhrin-site/images/carousel/4.jpg" alt="Flower">
             </div>
             <div class="wrap__label">
-                <img class="carousel__label" src="/wp-content/themes/mikhrin-site/images/carousel/label_4.png">
+                <img class="label_img" src="/wp-content/themes/mikhrin-site/images/icons/label_slider_img.png">
+                <span class="label__title">
+                    Заходи ділового формату
+                    <p class="label__title--strong margin_top_15">від KAM&Co.</p>
+                </span>
             </div>
         </div>
     </div>
@@ -90,7 +107,7 @@
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button class="navbar-toggle collapsed" aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" type="button">
-                        <span class="sr-only">Toggle navigation</span>
+                        <span class="sr-only"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -142,8 +159,8 @@
     </div>
     <div class="row service_block">
         <div class="col-md-3 service ">
-            <img src="/wp-content/themes/mikhrin-site/images/service/1.jpg" class="service__image">
-            <span class="service__label">Комплексний супровід Horeca</span>
+        <img src="/wp-content/themes/mikhrin-site/images/service/1.jpg" class="service__image">
+        <span class="service__label">Комплексний супровід Horeca</span>
         </div>
         <div class="col-md-3 service">
             <img src="/wp-content/themes/mikhrin-site/images/service/2.jpg" class="service__image">
@@ -163,10 +180,26 @@
         Нам довіряють:
     </div>
     <div class="brand">
-        <img class="brand__item" src="/wp-content/themes/mikhrin-site/images/brand/cocacola.png" alt="coca-cola">
-        <img class="brand__item" src="/wp-content/themes/mikhrin-site/images/brand/uni.png" alt="unilever">
-        <img class="brand__item" src="/wp-content/themes/mikhrin-site/images/brand/moz.png" alt="mondelez">
-        <img class="brand__item" src="/wp-content/themes/mikhrin-site/images/brand/nest.png" alt="nestle">
+        <div class="brand__item brand__item--cola">
+            <img src="/wp-content/themes/mikhrin-site/images/brand/cocacola.png" alt="coca-cola">
+        </div>
+        <div class="brand__item brand__item--uni">
+            <img src="/wp-content/themes/mikhrin-site/images/brand/uni.png" alt="unilever">
+        </div>
+        <div class="brand__item brand__item--moz">
+            <img src="/wp-content/themes/mikhrin-site/images/brand/moz.png" alt="mondelez">
+        </div>
+        <div class="brand__item brand__item--nes">
+            <img src="/wp-content/themes/mikhrin-site/images/brand/nest.png" alt="nestle">
+        </div>
     </div>
 </div>
+<script id="serviceTemplateBlock" type="text/html">
+    <div class="service_additional">
+        <div class="service_additional__border">
+            <div class="service_additional__title">Це саме те що вам потрібно!</div>
+            <span class="service_additional__text">Вам временно предоставляется скачаный нами исходный мультимедиа материал исключительно в целях.</span>
+        </div>
+    </div>
+</script>
 <?php get_footer(); ?>
