@@ -37,11 +37,17 @@
   margin: 10px auto 0;
   text-align: center;
   line-height: 24px;
+  cursor: pointer;
+  &:hover{
+    color: #6b2e6a;
+  }
 }
 .service_additional{
+  transition: all 2s ease-out;
+  display: none;
+  opacity: 0;
   height: 250px;
   width: 100%;
-  display: block;
   padding: 30px 34px;
   background: url(/wp-content/themes/mikhrin-site/images/service/background_service_additional.png) ;
   text-align: left;
@@ -64,4 +70,7 @@
   line-height: 20px;
   margin-bottom: 10px;
   text-align: center;
+}
+.js-service-s{
+  transition: all 2s ease-out;
 }
