@@ -23,18 +23,18 @@ function services() {
                 serviceTmpls = _serviceTmpl(serviceTmpl, $data);
 
             $title.before(serviceTmpls);
-            animateHide($(_self.find('.js-service-s')));
             animateShow($(_self.find('.js-service-h')));
         }
 
         function hideBlock() {
             var _self = $(this),
-                block_s = $(_self.find('.js-service-s')),
                 block_h = $(_self.find('.js-service-h'));
 
-            animateHide(block_h);
-            block_h.remove();
-            animateShow(block_s);
+            animateHide(block_h, function () {
+                setTimeout(function () {
+                    block_h
+                }, 0);
+            });
         }
         function _serviceTmpl(tmpl, data) {
             var _tmpls = tmpl;
@@ -47,19 +47,18 @@ function services() {
     });
 }
 
-function animateShow(el) {
+function animateShow(el, callback) {
     el.show();
-    el.animate(
-        {
+    el.animate({
             opacity:1
         },0);
+    if(callback) callback();
 }
 
-function animateHide(el) {
-    el.animate(
-        {
+function animateHide(el, callback) {
+    el.animate({
             opacity:0
         },0);
-    el.hide();
+    if(callback) callback();
 }
 
