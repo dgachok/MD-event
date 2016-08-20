@@ -32,8 +32,8 @@ function services() {
 
             animateHide(block_h, function () {
                 setTimeout(function () {
-                    block_h
-                }, 0);
+                    block_h.remove();
+                }, 1000);
             });
         }
         function _serviceTmpl(tmpl, data) {
