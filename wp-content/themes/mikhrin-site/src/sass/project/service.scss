@@ -33,7 +33,7 @@
   font-family: "OpenSansCondensedLight", sans-serif;
   font-size: 24px;
   color: #3e3e3e;
-  width: 140px;
+  width: 170px;
   margin: 10px auto 0;
   text-align: center;
   line-height: 24px;
@@ -44,7 +44,7 @@
 }
 .service_additional{
   position: absolute;
-  bottom: 58px;
+  top: 0;
   z-index: 10;
   cursor: pointer;
   display: none;
@@ -56,6 +56,7 @@
   text-align: left;
   overflow: hidden;
   transition: all 1s ease-out;
+
 }
 .service_additional__border{
   padding: 22px 0;

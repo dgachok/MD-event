@@ -62,3 +62,35 @@ function animateHide(el, callback) {
     if(callback) callback();
 }
 
+// Propose blocks
+
+function propose(){
+    var el = '.js-propose-brand',
+        $el = $(el),
+        active = 'propose__block--active';
+    $el.on("click", function () {
+        var _this = $(this),
+            attr = _this.attr('data-type'),
+            item = '.js-propose-item',
+            $item = $(item);
+        if(!(_this.hasClass(active))){
+            $el.removeClass(active);
+            _this.addClass(active);
+        }
+
+        $item.each(function (i) {
+            var _self = $(this),
+                speed = 500,
+                attr_item = _self.attr('data-type');
+            if(attr == attr_item){
+                setTimeout(function () {
+                    _self.fadeIn(speed);
+                }, speed);
+            }else{
+                _self.fadeOut(speed);
+
+            }
+        })
+    })
+}
+

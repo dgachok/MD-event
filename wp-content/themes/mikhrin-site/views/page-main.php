@@ -132,10 +132,13 @@
                                     <a href="#">Комплексний супровід Horeca</a>
                                 </li>
                                 <li>
-                                    <a href="#">Комплексний супровід Horeca</a>
+                                    <a href="#">Приватні та корпоративні заходи</a>
                                 </li>
                                 <li>
-                                    <a href="#">Комплексний супровід Horeca</a>
+                                    <a href="#">Заходи ділового формату</a>
+                                </li>
+                                <li>
+                                    <a href="#">Додаткові послуги</a>
                                 </li>
                             </ul>
                         </li>
@@ -159,21 +162,21 @@
     </div>
     <div class="row service_block">
         <div class="col-md-3 service js-service" data-json='{"title": "Це саме те що вам потрібно!1", "description": "Вам временно предоставляется скачаный нами исходный мультимедиа материал исключительно в целях.1"}'>
-            <img src="/wp-content/themes/mikhrin-site/images/service/2.jpg" class="service__image">
+            <img src="/wp-content/themes/mikhrin-site/images/service/1.jpg" class="service__image">
             <span class="service__label js-service-t">Комплексний супровід Horeca</span>
         </div>
 
         <div class="col-md-3 service js-service" data-json='{"title": "Це саме те що вам потрібно!2", "description": "Вам временно предоставляется скачаный нами исходный мультимедиа материал исключительно в целях.2"}'>
             <img src="/wp-content/themes/mikhrin-site/images/service/2.jpg" class="service__image">
-            <span class="service__label js-service-t">Комплексний супровід Horeca</span>
+            <span class="service__label js-service-t">Приватні та корпоративні заходи</span>
         </div>
         <div class="col-md-3 service js-service" data-json='{"title": "Це саме те що вам потрібно!3", "description": "Вам временно предоставляется скачаный нами исходный мультимедиа материал исключительно в целях.3"}'>
-            <img src="/wp-content/themes/mikhrin-site/images/service/2.jpg" class="service__image">
-            <span class="service__label js-service-t">Комплексний супровід Horeca</span>
+            <img src="/wp-content/themes/mikhrin-site/images/service/3.jpg" class="service__image">
+            <span class="service__label js-service-t">Заходи ділового формату</span>
         </div>
         <div class="col-md-3 service js-service" data-json='{"title": "Це саме те що вам потрібно!4", "description": "Вам временно предоставляется скачаный нами исходный мультимедиа материал исключительно в целях.4"}'>
-            <img src="/wp-content/themes/mikhrin-site/images/service/2.jpg" class="service__image">
-            <span class="service__label js-service-t">Комплексний супровід Horeca</span>
+            <img src="/wp-content/themes/mikhrin-site/images/service/4.jpg" class="service__image">
+            <span class="service__label js-service-t">Додаткові<br /> послуги</span>
         </div>
         <div class="clear"></div>
     </div>

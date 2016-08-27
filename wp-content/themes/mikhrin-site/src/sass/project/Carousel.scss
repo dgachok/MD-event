@@ -10,6 +10,13 @@
   }
 }
 
+.carousel--height{
+  height: 350px;
+  @media screen and (max-width: 991px) {
+    height: 625px;
+  }
+}
+
 .carousel-indicators {
   bottom: 51px;
   left: 48%;
