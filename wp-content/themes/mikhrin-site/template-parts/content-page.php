@@ -14,7 +14,7 @@
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
 
-	<div class="entry-content page__content">
+	<div class="entry-content page__content js-content" data-type="horeca">
 		<?php
 			the_content();
 
@@ -26,23 +26,40 @@
 		<div class="propose">
 			<div class="propose__block propose__block--active js-propose-brand" data-type="popular">
 				<div class="propose__item"><img class="propose__img" src="/wp-content/themes/mikhrin-site/images/icons/img_popular.png"></div>
-				<div class="propose__title">Найпопулярніші</div>
+				<div class="propose__title">
+					<?php $values = get_post_custom_values("popular");
+					if (isset($values[0])) {
+						echo $values[0];
+					}?>
+				</div>
 			</div>
 			<div class="propose__block js-propose-brand" data-type="econom">
 				<div class="propose__item"><img class="propose__img" src="/wp-content/themes/mikhrin-site/images/icons/img_econom.png"></div>
-				<div class="propose__title">Економ</div>
+				<div class="propose__title">
+					<?php $values = get_post_custom_values("econom");
+					if (isset($values[0])) {
+						echo $values[0];
+					}?>
+				</div>
 			</div>
 			<div class="propose__block js-propose-brand" data-type="standart">
 				<div class="propose__item"><img class="propose__img" src="/wp-content/themes/mikhrin-site/images/icons/img_standart.png"></div>
-				<div class="propose__title">Стандарт</div>
+				<div class="propose__title">
+					<?php $values = get_post_custom_values("standart");
+					if (isset($values[0])) {
+						echo $values[0];
+					}?>
+				</div>
 			</div>
 			<div class="propose__block js-propose-brand" data-type="premium">
 				<div class="propose__item"><img class="propose__img" src="/wp-content/themes/mikhrin-site/images/icons/img_premium.png"></div>
-				<div class="propose__title">Преміум</div>
+				<div class="propose__title"><?php $values = get_post_custom_values("premium");
+					if (isset($values[0])) {
+						echo $values[0];
+					}?></div>
 			</div>
 		</div>
 		<div class="propose-item">
-
 			<?php
 			// Loop 1 Popular
 			$query1 = new WP_Query(array( 'category_name' => 'horeca_popular' ));

@@ -23,6 +23,7 @@
   &.sidebar-block--active{
     height: 200px;
     cursor: default;
+    pointer-events: none;
     .sidebar-block__additional{
       background-color: #571f5a;
     }

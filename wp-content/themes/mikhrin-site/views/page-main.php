@@ -95,7 +95,7 @@
                 <div class="clear"></div>
             </div>
         </div>
-        <div class="col-md-4 header__logo"><img src="/wp-content/themes/mikhrin-site/images/logo.jpg"></div>
+        <div class="col-md-4 header__logo"><a href="<?php echo get_home_url()?>"><img src="/wp-content/themes/mikhrin-site/images/logo.jpg"></a></div>
         <div class="col-md-4 header__contact">+38(095)82-03-168<br/> +38(095)82-03-168<br/> +38(095)82-03-168
 				<span class="icon__telephon">
 					<img src="/wp-content/themes/mikhrin-site/images/icons/telephon.png">
@@ -120,7 +120,7 @@
                             <a href="#">Про Kam&Co</a>
                         </li>
                         <li>
-                            <a href="#">Новини</a>
+                            <a href="<?php echo get_home_url().'/news/'?>">Новини</a>
                         </li>
                         <li class="dropdown">
                             <a class="dropdown-toggle" aria-expanded="false" aria-haspopup="true" role="button" data-toggle="dropdown" href="#">
@@ -129,16 +129,16 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a href="#">Комплексний супровід Horeca</a>
+                                    <a href="<?php echo get_home_url().'/services-horeca/'?>">Комплексний супровід Horeca</a>
                                 </li>
                                 <li>
-                                    <a href="#">Приватні та корпоративні заходи</a>
+                                    <a href="<?php echo get_home_url().'/services-private/'?>">Приватні та корпоративні заходи</a>
                                 </li>
                                 <li>
-                                    <a href="#">Заходи ділового формату</a>
+                                    <a href="<?php echo get_home_url().'/services-business/'?>">Заходи ділового формату</a>
                                 </li>
                                 <li>
-                                    <a href="#">Додаткові послуги</a>
+                                    <a href="<?php echo get_home_url().'/services-add/'?>">Додаткові послуги</a>
                                 </li>
                             </ul>
                         </li>
@@ -162,21 +162,29 @@
     </div>
     <div class="row service_block">
         <div class="col-md-3 service js-service" data-json='{"title": "Це саме те що вам потрібно!1", "description": "Вам временно предоставляется скачаный нами исходный мультимедиа материал исключительно в целях.1"}'>
-            <img src="/wp-content/themes/mikhrin-site/images/service/1.jpg" class="service__image">
-            <span class="service__label js-service-t">Комплексний супровід Horeca</span>
+            <a href="<?php echo get_home_url().'/services-horeca/'?>">
+                <img src="/wp-content/themes/mikhrin-site/images/service/1.jpg" class="service__image">
+                <span class="service__label js-service-t">Комплексний супровід Horeca</span>
+            </a>
         </div>
 
         <div class="col-md-3 service js-service" data-json='{"title": "Це саме те що вам потрібно!2", "description": "Вам временно предоставляется скачаный нами исходный мультимедиа материал исключительно в целях.2"}'>
-            <img src="/wp-content/themes/mikhrin-site/images/service/2.jpg" class="service__image">
-            <span class="service__label js-service-t">Приватні та корпоративні заходи</span>
+            <a href="<?php echo get_home_url().'/services-private/'?>">
+                <img src="/wp-content/themes/mikhrin-site/images/service/2.jpg" class="service__image">
+                <span class="service__label js-service-t">Приватні та корпоративні заходи</span>
+            </a>
         </div>
         <div class="col-md-3 service js-service" data-json='{"title": "Це саме те що вам потрібно!3", "description": "Вам временно предоставляется скачаный нами исходный мультимедиа материал исключительно в целях.3"}'>
-            <img src="/wp-content/themes/mikhrin-site/images/service/3.jpg" class="service__image">
-            <span class="service__label js-service-t">Заходи ділового формату</span>
+            <a href="<?php echo get_home_url().'/services-business/'?>">
+                <img src="/wp-content/themes/mikhrin-site/images/service/3.jpg" class="service__image">
+                <span class="service__label js-service-t">Заходи ділового формату</span>
+            </a>
         </div>
         <div class="col-md-3 service js-service" data-json='{"title": "Це саме те що вам потрібно!4", "description": "Вам временно предоставляется скачаный нами исходный мультимедиа материал исключительно в целях.4"}'>
-            <img src="/wp-content/themes/mikhrin-site/images/service/4.jpg" class="service__image">
-            <span class="service__label js-service-t">Додаткові<br /> послуги</span>
+            <a href="<?php echo get_home_url().'/services-add/'?>">
+                <img src="/wp-content/themes/mikhrin-site/images/service/4.jpg" class="service__image">
+                <span class="service__label js-service-t">Додаткові<br /> послуги</span>
+            </a>
         </div>
         <div class="clear"></div>
     </div>

@@ -14,6 +14,15 @@
 }
 
 .service{
+  &:hover{
+    .service__label{
+      color: #6b2e6a;
+      text-decoration: none;
+    }
+    a{
+      text-decoration: none;
+    }
+  }
   display: inline-block;
   margin: 0 auto;
   overflow: hidden;
@@ -38,9 +47,6 @@
   text-align: center;
   line-height: 24px;
   cursor: pointer;
-  &:hover{
-    color: #6b2e6a;
-  }
 }
 .service_additional{
   position: absolute;

@@ -161,13 +161,22 @@ add_action('wp_enqueue_scripts', 'mikhrin_and_co_site_styles');
 
 function main_page_template( $template ) {
 	if( is_page('main')  ){
-		if ( $new_template = locate_template( array( 'page-main.php' ) ) )
+		if ( $new_template = locate_template( array( 'page-main.php','page-horeca.php' ) ) )
 			return $new_template ;
 		}
 	return $template;
 }
 
 add_filter( 'template_include', 'main_page_template', 99 );
+
+add_action('publish_page', 'add_custom_field_automatically');
+add_action('publish_post', 'add_custom_field_automatically');
+function add_custom_field_automatically($post_ID) {
+	global $wpdb;
+	if(!wp_is_post_revision($post_ID)) {
+		add_post_meta($post_ID, 'price', '', true);
+	}
+}
 
 /**
  * Implement the Custom Header feature.

@@ -4,7 +4,7 @@
   height: 100%;
   margin: 20px 0 0 22%;
   padding-left: 3%;
-  box-shadow: -10px 0px 10px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: -10px 0px 10px -8px rgba(0, 0, 0, 0.2);
   @media screen and (max-width: 770px) {
     margin: 0;
   }
@@ -42,7 +42,7 @@
   height: 170px;
   width: 170px;
   background-color: #eeeeee;
-  transition: all 1s ease-out;
+  transition: all 0.5s ease-out;
 }
 .propose__block{
   &:hover{
@@ -79,7 +79,7 @@
   font-family: "OpenSansCondensedLight", sans-serif;
   color: #3e3e3e;
   text-align: center;
-  transition: all 1s ease-out;
+  transition: all 0.5s ease-out;
 }
 
 .propose__img{
@@ -124,7 +124,7 @@
   color: #3e3e3e;
   text-align: center;
   cursor: pointer;
-  transition: all 1s ease-out;
+  transition: all 0.5s ease-out;
 }
 
 blockquote{
