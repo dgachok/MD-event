@@ -29,7 +29,7 @@ gulp.task('bootstrap', function () {
 });
 
 gulp.task('scripts', function() {
-    return gulp.src(['src/js/main.js'])
+    return gulp.src(['src/js/main.js', 'src/js/general.js'])
         .pipe(concat('main.min.js'))
         .pipe(uglify())
         .pipe(gulp.dest('dist/js/'));

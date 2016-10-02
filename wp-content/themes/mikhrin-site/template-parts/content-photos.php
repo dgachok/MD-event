@@ -10,11 +10,10 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-    <header class="entry-header page__header js-menu-services">
+    <header class="entry-header page__header js-menu-photos">
         <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
     </header><!-- .entry-header -->
-
-    <div class="entry-content page__content js-content" data-type="private">
+    <div class="entry-content page__content">
         <?php
         the_content();
 
@@ -24,8 +23,6 @@
         ) );
         ?>
     </div><!-- .entry-content -->
-
-
     <footer class="entry-footer">
         <?php
         edit_post_link(
@@ -40,3 +37,8 @@
         ?>
     </footer><!-- .entry-footer -->
 </article><!-- #post-## -->
+
+<script>
+    $( document ).ready(function() {
+    });
+</script>

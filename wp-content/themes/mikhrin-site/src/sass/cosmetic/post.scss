@@ -1,4 +1,4 @@
-.post{
+.post-add{
   display: block;
   padding: 20px 80px 15px 0;
   margin-bottom: 20px;
@@ -6,7 +6,7 @@
     padding: 20px 0 15px;
   }
 }
-.post__img{
+.post-add__img{
   display: inline-block;
   margin-right: 15px;
   vertical-align: top;
@@ -16,13 +16,13 @@
     border-radius: 70px;
   }
 }
-.post__main{
+.post-add__main{
   display: inline-block;
   color: #571f5b;
   font-size: 0;
   width: calc(100% - 150px);
 }
-.post__title{
+.post-add__title{
   font-family: "OpenSansCondensedBold", sans-serif;
   font-size: 21px;
   margin-bottom: 15px;
@@ -33,25 +33,25 @@
     text-decoration: none;
   }
 }
-.post__desc{
+.post-add__desc{
   font-family: Verdana, sans-serif;
   font-size: 12px;
   margin-bottom: 15px;
   display: block;
 }
-.post-buttons{
+.post-add-buttons{
   display: block;
   font-size: 0;
   color: #FFFFFF;
   font-family: "OpenSansCondensedBold", sans-serif;
 }
-.post-buttons__price{
+.post-add-buttons__price{
   display: inline-block;
   background-color: #571f5b;
   font-size: 17px;
   padding: 7px 11px;
 }
-.post-buttons__more{
+.post-add-buttons__more{
   display: inline-block;
   background-color: #7d155e;
   font-size: 17px;

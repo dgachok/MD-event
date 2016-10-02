@@ -45,13 +45,15 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
                 content = '.js-content',
                 $sidebar = $(sidebar),
                 $content = $(content),
-                data = $content.attr("data-type"),
-                attr = (data.length) ? data : "horeca",
-                el = ".js-"+ attr,
-                $el = $(el);
+				data = $content.attr("data-type");
 
-            $sidebar.removeClass("sidebar-block--active");
-            $el.addClass("sidebar-block--active");
+			if (data !== undefined){
+				var attr = (data.length) ? data : "horeca",
+					el = ".js-"+ attr,
+					$el = $(el);
+				$sidebar.removeClass("sidebar-block--active");
+				$el.addClass("sidebar-block--active");
+			}
         }
 	});
 </script>

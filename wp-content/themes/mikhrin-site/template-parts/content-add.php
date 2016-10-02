@@ -10,7 +10,7 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-    <header class="entry-header page__header">
+    <header class="entry-header page__header js-menu-services">
         <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
     </header><!-- .entry-header -->
 
@@ -34,18 +34,18 @@
     $query1->the_post();
 
     ?>
-    <div class="post">
-        <div class="post__img">
+    <div class="post-add">
+        <div class="post-add__img">
             <?php if ( has_post_thumbnail( $query1->post->ID ) ) {the_post_thumbnail();} else{
                 ?>
                 <img class="wp-post-image" src="/wp-content/themes/mikhrin-site/images/service/2.jpg">
             <?php }?>
         </div>
-        <div class="post__main">
-            <a href="<?php the_permalink(); ?>" class="post__title"><?php the_title(); ?></a>
-            <span class="post__desc"><?php the_excerpt(); ?></span>
-            <div class="post-buttons">
-                <div class="post-buttons__price">
+        <div class="post-add__main">
+            <a href="<?php the_permalink(); ?>" class="post-add__title"><?php the_title(); ?></a>
+            <span class="post-add__desc"><?php the_excerpt(); ?></span>
+            <div class="post-add-buttons">
+                <div class="post-add-buttons__price">
                     <?php $values = get_post_custom_values("price", $query1->post->ID);
                     if (isset($values[0]) && $values[0]!='') {
                         echo ($values[0]."грн");
@@ -53,7 +53,7 @@
                         echo ('Ціна договірна');
                     }?>
                 </div>
-                <a href="<?php the_permalink(); ?>" class="post-buttons__more">Детальніше</a>
+                <a href="<?php the_permalink(); ?>" class="post-add-buttons__more">Детальніше</a>
             </div>
         </div>
     </div>

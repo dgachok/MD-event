@@ -94,3 +94,16 @@ function propose(){
     })
 }
 
+function menuActiveItems() {
+    var menu = ".js-menu",
+        $menu = $(menu),
+        el = $menu.children("li");
+
+    el.each(function () {
+       var _this = $(this),
+           attr = _this.attr("data-menu"),
+           $element = $(menu + "-" +attr);
+       ($element.length != 0) ?  _this.addClass("active") : _this.removeClass("active");
+    });
+}
+

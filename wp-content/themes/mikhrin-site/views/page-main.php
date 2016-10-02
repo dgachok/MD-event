@@ -116,8 +116,8 @@
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active">
-                            <a href="#">Про Kam&Co</a>
+                        <li>
+                            <a href="<?php echo get_home_url().'/about/'?>">Про Kam&Co</a>
                         </li>
                         <li>
                             <a href="<?php echo get_home_url().'/news/'?>">Новини</a>
@@ -143,16 +143,16 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="#">Фото</a>
+                            <a href="<?php echo get_home_url().'/photos/'?>">Фото</a>
                         </li>
                         <li>
-                            <a href="#">Клієнти</a>
+                            <a href="<?php echo get_home_url().'/customers/'?>">Клієнти</a>
                         </li>
                         <li>
-                            <a href="#">Партнери</a>
+                            <a href="<?php echo get_home_url().'/partners/'?>">Партнери</a>
                         </li>
                         <li>
-                            <a href="#">Контакти</a>
+                            <a href="<?php echo get_home_url().'/contacts/'?>">Контакти</a>
                         </li>
 
                     </ul>

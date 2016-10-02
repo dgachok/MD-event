@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Mikhrin and Co Site functions and definitions.
  *
@@ -15,6 +16,7 @@ if ( ! function_exists( 'mikhrin_and_co_site_setup' ) ) :
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
+
 function mikhrin_and_co_site_setup() {
 	/*
 	 * Make theme available for translation.

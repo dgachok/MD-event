@@ -80,14 +80,14 @@
 					<a class="navbar-brand" href="#">Меню</a>
 				</div>
 				<div id="navbar" class="navbar-collapse collapse">
-					<ul class="nav navbar-nav">
-						<li class="active">
-							<a href="#">Про Kam&Co</a>
+					<ul class="nav navbar-nav js-menu">
+						<li data-menu="about">
+							<a href="<?php echo get_home_url().'/about/'?>">Про Kam&Co</a>
 						</li>
-						<li>
+						<li data-menu="news">
 							<a href="<?php echo get_home_url().'/news/'?>">Новини</a>
 						</li>
-						<li class="dropdown">
+						<li data-menu="services" class="dropdown">
 							<a class="dropdown-toggle" aria-expanded="false" aria-haspopup="true" role="button" data-toggle="dropdown" href="#">
 								Послуги
 								<span class="caret"></span>
@@ -107,17 +107,17 @@
 								</li>
 							</ul>
 						</li>
-						<li>
-							<a href="#">Фото</a>
+						<li data-menu="photos">
+							<a href="<?php echo get_home_url().'/photos/'?>">Фото</a>
 						</li>
-						<li>
-							<a href="#">Клієнти</a>
+						<li data-menu="customers">
+							<a href="<?php echo get_home_url().'/customers/'?>">Клієнти</a>
 						</li>
-						<li>
-							<a href="#">Партнери</a>
+						<li data-menu="partners">
+							<a href="<?php echo get_home_url().'/partners/'?>">Партнери</a>
 						</li>
-						<li>
-							<a href="#">Контакти</a>
+						<li data-menu="contacts">
+							<a href="<?php echo get_home_url().'/contacts/'?>">Контакти</a>
 						</li>
 
 					</ul>
