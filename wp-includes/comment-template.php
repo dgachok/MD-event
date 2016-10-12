@@ -2125,8 +2125,8 @@ function comment_form( $args = array(), $post_id = null ) {
 	$html_req = ( $req ? " required='required'" : '' );
 	$html5    = 'html5' === $args['format'];
 	$fields   =  array(
-		'author' => '<p class="comment-form-author">' . '<label for="author">' . __( 'Name' ) . ( $req ? ' <span class="required">*</span>' : '' ) . '</label> ' .
-		            '<input id="author" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" size="30" maxlength="245"' . $aria_req . $html_req . ' /></p>',
+		'author' => '<p class="comment-form-author">' . '<label for="author" class="comment__label">' . __( "Ваше ім'я" ) . ( ' <span class="required">*</span>') .( $req ? ' <span class="required">*</span>' : '' ) . '</label> ' .
+		            '<input class="comment__input" id="author" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" size="30" maxlength="245"' . $aria_req . $html_req . ' /></p>',
 		'email'  => '<p class="comment-form-email"><label for="email">' . __( 'Email' ) . ( $req ? ' <span class="required">*</span>' : '' ) . '</label> ' .
 		            '<input id="email" name="email" ' . ( $html5 ? 'type="email"' : 'type="text"' ) . ' value="' . esc_attr(  $commenter['comment_author_email'] ) . '" size="30" maxlength="100" aria-describedby="email-notes"' . $aria_req . $html_req  . ' /></p>',
 		'url'    => '<p class="comment-form-url"><label for="url">' . __( 'Website' ) . '</label> ' .
@@ -2145,7 +2145,7 @@ function comment_form( $args = array(), $post_id = null ) {
 	$fields = apply_filters( 'comment_form_default_fields', $fields );
 	$defaults = array(
 		'fields'               => $fields,
-		'comment_field'        => '<p class="comment-form-comment"><label for="comment">' . _x( 'Comment', 'noun' ) . '</label> <textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525" aria-required="true" required="required"></textarea></p>',
+		'comment_field'        => '<p class="comment-form-comment"><label class="comment__label" for="comment">' . _x( 'Повідомлення', '' ). ( ' <span class="required">*</span>') . '</label> <textarea id="comment" class="comment__textarea" name="comment" cols="45" rows="8" maxlength="65525" aria-required="true" required="required"></textarea></p>',
 		/** This filter is documented in wp-includes/link-template.php */
 		'must_log_in'          => '<p class="must-log-in">' . sprintf(
 		                              /* translators: %s: login URL */
@@ -2177,8 +2177,8 @@ function comment_form( $args = array(), $post_id = null ) {
 		'cancel_reply_after'   => '</small>',
 		'cancel_reply_link'    => __( 'Cancel reply' ),
 		'label_submit'         => __( 'Post Comment' ),
-		'submit_button'        => '<input name="%1$s" type="submit" id="%2$s" class="%3$s" value="%4$s" />',
-		'submit_field'         => '<p class="form-submit">%1$s %2$s</p>',
+		'submit_button'        => '<input name="%1$s" type="submit" id="%2$s" class="%3$s" value="Comment" />',
+		'submit_field'         => '<p class="comment__submit form-submit">%1$s %2$s</p>',
 		'format'               => 'xhtml',
 	);
 
@@ -2270,7 +2270,7 @@ function comment_form( $args = array(), $post_id = null ) {
 					endif;
 
 					// Prepare an array of all fields, including the textarea
-					$comment_fields = array( 'comment' => $args['comment_field'] ) + (array) $args['fields'];
+					$comment_fields = (array) $args['fields'] + array( 'comment' => $args['comment_field'] );
 
 					/**
 					 * Filter the comment form fields, including the textarea.

@@ -180,6 +180,20 @@ function add_custom_field_automatically($post_ID) {
 	}
 }
 
+function wpb_alter_comment_form_fields($fields) {
+    unset($fields['url']);
+    unset($fields['email']);
+    return $fields;
+}
+add_filter('comment_form_default_fields', 'wpb_alter_comment_form_fields');
+
+
+function custom_validate_comment_author() {
+    if( empty( $_POST['author'] ) || ( !preg_match( '/[^\s]/', $_POST['author'] ) ) )
+        wp_die( __('Ошибка! Пожалуйста, заполните поле Имя') );
+}
+add_action( 'pre_comment_on_post', 'custom_validate_comment_author' );
+
 /**
  * Implement the Custom Header feature.
  */

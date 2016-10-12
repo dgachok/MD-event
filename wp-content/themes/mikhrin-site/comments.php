@@ -20,6 +20,8 @@ if ( post_password_required() ) {
 }
 ?>
 
+<hr />
+
 <div id="comments" class="comments-area">
 
 	<?php
@@ -79,7 +81,9 @@ if ( post_password_required() ) {
 	<?php
 	endif;
 
-	comment_form();
+	comment_form(array(
+		'comment_notes_before' => '<p class="comment-notes">' . __( '' ) . ( $req ? $required_text : '' ) . '</p>'
+	));
 	?>
 
 </div><!-- #comments -->
