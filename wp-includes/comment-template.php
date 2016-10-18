@@ -2177,7 +2177,7 @@ function comment_form( $args = array(), $post_id = null ) {
 		'cancel_reply_after'   => '</small>',
 		'cancel_reply_link'    => __( 'Cancel reply' ),
 		'label_submit'         => __( 'Post Comment' ),
-		'submit_button'        => '<input name="%1$s" type="submit" id="%2$s" class="%3$s" value="Comment" />',
+		'submit_button'        => '<input name="%1$s" type="submit" id="%2$s" class="%3$s" value="Відправити" />',
 		'submit_field'         => '<p class="comment__submit form-submit">%1$s %2$s</p>',
 		'format'               => 'xhtml',
 	);
@@ -2195,6 +2195,7 @@ function comment_form( $args = array(), $post_id = null ) {
 
 	// Ensure that the filtered args contain all required default values.
 	$args = array_merge( $defaults, $args );
+
 
 	if ( comments_open( $post_id ) ) : ?>
 		<?php
