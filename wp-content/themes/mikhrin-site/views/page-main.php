@@ -76,7 +76,7 @@
                 <img class="label_img" src="/wp-content/themes/mikhrin-site/images/icons/label_slider_img.png">
                 <span class="label__title">
                     Заходи ділового формату
-                    <p class="label__title--strong margin_top_15">від KAM&Co.</p>
+                    <p class="label__title--strong margin_top_15">від MD Event</p>
                 </span>
             </div>
         </div>
@@ -84,7 +84,7 @@
 </div>
 <div class="container">
     <div class="row header">
-        <div class="col-md-4 header__text"><strong>Event-агенство Mdr&Co</strong> Послуги вищого рівня! Організація усіх видів святкувань! Надійно!
+        <div class="col-md-4 header__text"><strong>Event-агенство<br> MD Event</strong> Послуги вищого рівня! Організація усіх видів святкувань! Надійно!
             <div class="social">
                 <div class="social__border-top social__border-top--right"></div>
                 <div class="social__border-top social__border-top--left"></div>
@@ -117,7 +117,7 @@
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li>
-                            <a href="<?php echo get_home_url().'/about/'?>">Про Kam&Co</a>
+                            <a href="<?php echo get_home_url().'/about/'?>">Про MD Event</a>
                         </li>
                         <li>
                             <a href="<?php echo get_home_url().'/news/'?>">Новини</a>

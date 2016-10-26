@@ -49,7 +49,7 @@
 </div>
 <div class="container">
 	<div class="row header">
-		<div class="col-md-4 header__text"><strong>Event-агенство Mdr&Co</strong> Послуги вищого рівня! Організація усіх видів святкувань! Надійно!
+		<div class="col-md-4 header__text"><strong>Event-агенство<br> MD Event</strong> Послуги вищого рівня! Організація усіх видів святкувань! Надійно!
 			<div class="social">
 				<div class="social__border-top social__border-top--right"></div>
 				<div class="social__border-top social__border-top--left"></div>
@@ -82,7 +82,7 @@
 				<div id="navbar" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav js-menu">
 						<li data-menu="about">
-							<a href="<?php echo get_home_url().'/about/'?>">Про MD event</a>
+							<a href="<?php echo get_home_url().'/about/'?>">Про MD Event</a>
 						</li>
 						<li data-menu="news">
 							<a href="<?php echo get_home_url().'/news/'?>">Новини</a>
