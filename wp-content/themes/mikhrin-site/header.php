@@ -82,7 +82,7 @@
 				<div id="navbar" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav js-menu">
 						<li data-menu="about">
-							<a href="<?php echo get_home_url().'/about/'?>">Про Kam&Co</a>
+							<a href="<?php echo get_home_url().'/about/'?>">Про MD event</a>
 						</li>
 						<li data-menu="news">
 							<a href="<?php echo get_home_url().'/news/'?>">Новини</a>
