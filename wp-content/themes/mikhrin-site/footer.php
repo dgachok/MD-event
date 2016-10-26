@@ -16,7 +16,7 @@
 	<footer class="footer">
 		<div class="container">
 			<ul class="footer__menu">
-				<li class="active"><a href="">Про Kam&Co</a></li>
+				<li class="active"><a href="">Про MD Event</a></li>
 				<li><a href="">Новини</a></li>
 				<li><a href="">Послуги</a></li>
 				<li><a href="">Фото</a></li>
