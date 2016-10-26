@@ -16,7 +16,7 @@
 	<footer class="footer">
 		<div class="container">
 			<ul class="footer__menu js-menu">
-				<li data-menu="about"><a href="">Про MD Event</a></li>
+				<li data-menu="about"><a href="<?php echo get_home_url().'/news/'?>">Про MD Event</a></li>
 				<li data-menu="news"><a href="<?php echo get_home_url().'/news/'?>">Новини</a></li>
 				<li data-menu="services"><a href="<?php echo get_home_url().'/services-horeca/'?>">Послуги</a></li>
 				<li data-menu="photos"><a href="<?php echo get_home_url().'/photos/'?>">Фото</a></li>
