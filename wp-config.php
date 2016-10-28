@@ -18,18 +18,35 @@
  * @package WordPress
  */
 
-// ** MySQL settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
-define('DB_NAME', 'mdevent_db');
+if(!isset($_SERVER['MY_ENV'])){
+    // Use default environment
+    define('DB_NAME', 'mdevent_db');
 
-/** MySQL database username */
-define('DB_USER', 'mdevent_db');
+    /** MySQL database username */
+    define('DB_USER', 'mdevent_db');
 
-/** MySQL database password */
-define('DB_PASSWORD', 'FcHketcC');
+    /** MySQL database password */
+    define('DB_PASSWORD', 'FcHketcC');
 
-/** MySQL hostname */
-define('DB_HOST', 'mdevent.mysql.ukraine.com.ua');
+    /** MySQL hostname */
+    define('DB_HOST', 'mdevent.mysql.ukraine.com.ua');
+
+} else
+    if(isset($_SERVER['MY_ENV']) && $_SERVER['MY_ENV'] == "local"){
+    // ** MySQL settings - You can get this info from your web host ** //
+    /** The name of the database for WordPress */
+    define('DB_NAME', 'wp_base');
+
+    /** MySQL database username */
+    define('DB_USER', 'root');
+
+    /** MySQL database password */
+    define('DB_PASSWORD', 'root');
+
+    /** MySQL hostname */
+    define('DB_HOST', 'localhost');
+
+}
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
