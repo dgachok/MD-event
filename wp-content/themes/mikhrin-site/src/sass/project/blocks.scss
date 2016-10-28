@@ -13,7 +13,7 @@
 
 .brand{
   display: block;
-  margin: 22px 75px 50px;
+  margin: 22px 0 50px;
   font-size: 0;
   @media screen and (max-width: 851px) {
     margin: 22px 0 50px;
@@ -33,7 +33,7 @@
 }
 
 .brand__item--cola{
-  width: 23.8%;
+  width: 21.8%;
   @media screen and (max-width: 735px) {
     width: 165px;
     margin-left: 45px;
@@ -41,19 +41,19 @@
   }
 }
 .brand__item--uni{
-  width: 12.2%;
+  width: 22.2%;
   @media screen and (max-width: 735px) {
     width: 85px;
   }
 }
 .brand__item--moz{
-  width: 27.4%;
+  width: 25.4%;
   @media screen and (max-width: 735px) {
     width: 200px;
   }
 }
 .brand__item--nes{
-  width: 19.5%;
+  width: 17.5%;
   @media screen and (max-width: 735px) {
     width: 140px;
   }

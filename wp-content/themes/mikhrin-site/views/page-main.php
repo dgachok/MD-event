@@ -193,16 +193,16 @@
     </div>
     <div class="brand">
         <div class="brand__item brand__item--cola">
-            <img src="/wp-content/themes/mikhrin-site/images/brand/cocacola.png" alt="coca-cola">
+            <img src="/wp-content/themes/mikhrin-site/images/brand/green_yellow_vert_logo.jpg" alt="coca-cola">
         </div>
         <div class="brand__item brand__item--uni">
-            <img src="/wp-content/themes/mikhrin-site/images/brand/uni.png" alt="unilever">
+            <img src="/wp-content/themes/mikhrin-site/images/brand/unknown_22.jpeg" alt="unilever">
         </div>
         <div class="brand__item brand__item--moz">
-            <img src="/wp-content/themes/mikhrin-site/images/brand/moz.png" alt="mondelez">
+            <img src="/wp-content/themes/mikhrin-site/images/brand/site_1413963543.jpg" alt="mondelez">
         </div>
         <div class="brand__item brand__item--nes">
-            <img src="/wp-content/themes/mikhrin-site/images/brand/nest.png" alt="nestle">
+            <img src="/wp-content/themes/mikhrin-site/images/brand/groupe-danone-sa-logo.jpg" alt="nestle">
         </div>
     </div>
 </div>
