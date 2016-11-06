@@ -1,0 +1,87 @@
+@media screen and (max-width: 480px) and (max-device-width: 480px){
+  .carousel-inner>.item img{
+    width: auto;
+  }
+  .footer{
+    width: 100%;
+  }
+  ul.footer__menu{
+    width: 100%;
+    margin: 0;
+  }
+  .footer__menu li{
+    display: inline-block;
+  }
+  .brand{
+    width: 100%;
+    margin: 22px auto 50px;
+  }
+  .brand__item--moz, .brand__item--uni, .brand__item--cola, .brand__item--nes{
+    margin: 0 auto;
+  }
+  .brand__item{
+    display: block;
+  }
+  .header .header__text{
+    width: 320px;
+  }
+  .site__main{
+    padding-left: 0;
+    box-shadow: none;
+  }
+  .propose-item__item{
+    text-align: center;
+    display: block;
+    margin: 0 auto 10px;
+  }
+  .propose{
+    display: block;
+    width: 282px;
+    margin: 20px auto 0;
+  }
+  .propose__item{
+    height: 60px;
+    width: 60px;
+    margin: 0;
+  }
+  .propose__img{
+    height: 25px;
+    left: 15px;
+    position: relative;
+    top: 17px;
+    width: 30px;
+  }
+  .propose__block{
+    width: 60px;
+  }
+  .propose__title{
+    display: none;
+  }
+  .content__area{
+    margin: 35px 0 0 -25%;
+  }
+  .propose-item__img .wp-post-image{
+    height: 100%;
+    width: 100%;
+  }
+  .service_block{
+    width: 100%;
+  }
+  .service{
+    width: 100%;
+    margin-right: 10px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+  }
+  .service__image--mob{
+    height: 250px;
+  }
+  .service__image{
+    width: 100%;
+    height: auto;
+  }
+  .comment__input, .comment__textarea{
+    width: 100%;
+  }
+}

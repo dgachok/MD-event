@@ -61,7 +61,7 @@
 			</div>
 		</div>
 		<div class="col-md-4 header__logo"><a href="<?php echo get_home_url()?>"><img src="/wp-content/themes/mikhrin-site/images/logo.jpg"></a></div>
-		<div class="col-md-4 header__contact">+38(095)82-03-168<br/> +38(095)82-03-168<br/> +38(095)82-03-168
+		<div class="col-md-4 header__contact">+38(096)81-84-925<br>+38(093)008-38-03
 				<span class="icon__telephon">
 					<img src="/wp-content/themes/mikhrin-site/images/icons/telephon.png">
 				</span>
