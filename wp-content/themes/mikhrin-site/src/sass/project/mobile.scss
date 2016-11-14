@@ -79,9 +79,18 @@
   }
   .service__image{
     width: 100%;
-    height: auto;
+    height: 275px;
   }
   .comment__input, .comment__textarea{
     width: 100%;
+  }
+  .service_additional{
+    height: 275px;
+  }
+  .header .header__contact{
+    text-shadow: none;
+  }
+  .menu .navbar-default .navbar-nav .open .dropdown-menu > li{
+    border-top: 1px solid #666666;
   }
 }

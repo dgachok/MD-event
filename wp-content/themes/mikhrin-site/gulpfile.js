@@ -14,16 +14,22 @@ gulp.task('sass', function () {
     gulp.src('src/sass/import.scss')
         .pipe(sass().on('error', sass.logError))
         // .pipe(uncss({ html: ['*.php', 'inc/*.php', 'template-parts/*.php'] }))
-        .pipe(autoprefixer({ browsers: ['> 1%', 'IE 7'], cascade: false }))
-        .pipe(cleanCSS({compatibility: ''}))
+
+        .pipe(autoprefixer({
+            browsers: ['last 10 versions'],
+            cascade: false
+        }))
         .pipe(rename('style.min.css'))
         .pipe(gulp.dest('dist/css/'));
 });
 
 gulp.task('bootstrap', function () {
     gulp.src('src/lib/bootstrap.css')
-        .pipe(autoprefixer({ browsers: ['> 1%', 'IE 7'], cascade: false }))
-        .pipe(cleanCSS({compatibility: ''}))
+
+        .pipe(autoprefixer({
+            browsers: ['last 10 versions'],
+            cascade: false
+        }))
         .pipe(rename('bootstrap.min.css'))
         .pipe(gulp.dest('dist/css/'));
 });
