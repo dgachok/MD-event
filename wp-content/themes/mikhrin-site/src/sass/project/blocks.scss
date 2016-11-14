@@ -18,7 +18,7 @@
   @media screen and (max-width: 851px) {
     margin: 22px 0 50px;
   }
-  @media screen and (max-width: 735px) {
+  @media screen and (max-width: 901px) {
     margin: 22px auto 50px;
     width: 410px;
   }
@@ -34,27 +34,26 @@
 
 .brand__item--cola{
   width: 21.8%;
-  @media screen and (max-width: 735px) {
+  @media screen and (max-width: 901px) {
     width: 165px;
-    margin-left: 45px;
     margin-right: 30px;
   }
 }
 .brand__item--uni{
   width: 22.2%;
-  @media screen and (max-width: 735px) {
-    width: 85px;
+  @media screen and (max-width: 901px) {
+    width: 165px;
   }
 }
 .brand__item--moz{
   width: 25.4%;
-  @media screen and (max-width: 735px) {
+  @media screen and (max-width: 901px) {
     width: 200px;
   }
 }
 .brand__item--nes{
   width: 17.5%;
-  @media screen and (max-width: 735px) {
+  @media screen and (max-width: 901px) {
     width: 140px;
   }
 }
