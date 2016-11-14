@@ -509,6 +509,8 @@ blockquote {
     width: 333.33px;
     position: relative;
     letter-spacing: 0.3px; }
+    .header .header__contact a {
+      color: #ffffff; }
     @media screen and (max-width: 991px) {
       .header .header__contact {
         text-align: center;
@@ -516,8 +518,6 @@ blockquote {
         margin: 20px auto;
         padding: 0 20px;
         width: 100%; } }
-  .header .header__contact-text {
-    color: #ffffff; }
 
 .menu {
   margin: 24px auto 0; }
