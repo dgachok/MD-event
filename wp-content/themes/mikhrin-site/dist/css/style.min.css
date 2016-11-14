@@ -499,7 +499,7 @@ blockquote {
         width: 224px;
         margin: 26px auto 0; } }
   .header .header__contact {
-    font-family: "Open Sans", sans-serif;
+    font-family: "OpenSansSemiBold", sans-serif;
     font-size: 29px;
     padding-left: 56px;
     margin-top: 109px;
@@ -508,9 +508,7 @@ blockquote {
     color: #ffffff;
     width: 333.33px;
     position: relative;
-    letter-spacing: 0.3px;
-    text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.2), 1px 1px 1px rgba(255, 255, 255, 0.2), 1px 1px 1px rgba(0, 0, 0, 0.7);
-    /* тёмная тень */ }
+    letter-spacing: 0.3px; }
     @media screen and (max-width: 991px) {
       .header .header__contact {
         text-align: center;
@@ -518,6 +516,8 @@ blockquote {
         margin: 20px auto;
         padding: 0 20px;
         width: 100%; } }
+  .header .header__contact-text {
+    color: #ffffff; }
 
 .menu {
   margin: 24px auto 0; }
