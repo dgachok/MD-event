@@ -92,5 +92,10 @@
   }
   .menu .navbar-default .navbar-nav .open .dropdown-menu > li{
     border-top: 1px solid #666666;
+    height: 45px;
   }
+  .menu .navbar-default .navbar-nav .open .dropdown-menu > li a{
+    padding-top: 10px;
+  }
+
 }
