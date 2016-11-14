@@ -426,6 +426,7 @@ blockquote {
     padding: 0 53px;
     line-height: 20.9px;
     width: 333.33px;
+    color: #ffffff;
     text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.2), 1px 1px 1px rgba(255, 255, 255, 0.2), 1px 1px 1px rgba(0, 0, 0, 0.7);
     /* тёмная тень */ }
     @media screen and (max-width: 991px) {
@@ -504,6 +505,7 @@ blockquote {
     margin-top: 109px;
     line-height: 31px;
     font-weight: 600;
+    color: #ffffff;
     width: 333.33px;
     position: relative;
     letter-spacing: 0.3px;
