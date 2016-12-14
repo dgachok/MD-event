@@ -42,5 +42,20 @@ body {
 #reply-title{
   display:none;
 }
+.disabled{
+  opacity: 0.48!important;
+  pointer-events: none!important;
+  position: relative;
+  &:after{
+    content: "Coming soon";
+    position: absolute;
+    font-size: 26px;
+    color: black;
+    text-transform: uppercase;
+    top: 50%;
+    left: 10%;
+    z-index: 40;
+  }
+}
 
 

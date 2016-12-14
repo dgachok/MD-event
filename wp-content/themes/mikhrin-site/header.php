@@ -93,7 +93,7 @@
 								<span class="caret"></span>
 							</a>
 							<ul class="dropdown-menu">
-								<li>
+								<li class="disabled">
 									<a href="<?php echo get_home_url().'/services-horeca/'?>">Комплексний супровід Horeca</a>
 								</li>
 								<li>
