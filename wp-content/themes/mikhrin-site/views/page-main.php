@@ -128,7 +128,7 @@
                                 <span class="caret"></span>
                             </a>
                             <ul class="dropdown-menu">
-                                <li class="disabled">
+                                <li class="disabled-u">
                                     <a href="<?php echo get_home_url().'/services-horeca/'?>">Комплексний супровід Horeca</a>
                                 </li>
                                 <li>
@@ -145,7 +145,7 @@
                         <li>
                             <a href="<?php echo get_home_url().'/photos/'?>">Фото</a>
                         </li>
-                        <li>
+                        <li class="disabled-u">
                             <a href="<?php echo get_home_url().'/customers/'?>">Клієнти</a>
                         </li>
                         <li>

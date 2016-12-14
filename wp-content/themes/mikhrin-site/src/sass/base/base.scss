@@ -57,5 +57,9 @@ body {
     z-index: 40;
   }
 }
+.disabled-u{
+  opacity: 0.48!important;
+  pointer-events: none!important;
+}
 
 
