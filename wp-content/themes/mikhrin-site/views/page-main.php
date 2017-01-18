@@ -128,7 +128,7 @@
                                 <span class="caret"></span>
                             </a>
                             <ul class="dropdown-menu">
-                                <li class="disabled-u">
+                                <li>
                                     <a href="<?php echo get_home_url().'/services-horeca/'?>">Комплексний супровід Horeca</a>
                                 </li>
                                 <li>
@@ -145,7 +145,7 @@
                         <li>
                             <a href="<?php echo get_home_url().'/photos/'?>">Фото</a>
                         </li>
-                        <li class="disabled-u">
+                        <li>
                             <a href="<?php echo get_home_url().'/customers/'?>">Клієнти</a>
                         </li>
                         <li>
@@ -161,7 +161,7 @@
         </nav>
     </div>
     <div class="row service_block">
-        <div class="col-md-3 service js-service disabled" data-json='{"title": "Це саме те що вам потрібно!1", "description": "Вам временно предоставляется скачаный нами исходный мультимедиа материал исключительно в целях.1"}'>
+        <div class="col-md-3 service js-service" data-json='{"title": "Це саме те що вам потрібно!1", "description": "Вам временно предоставляется скачаный нами исходный мультимедиа материал исключительно в целях.1"}'>
             <a class="service__image--mob" href="<?php echo get_home_url().'/services-horeca/'?>">
                 <img src="/wp-content/themes/mikhrin-site/images/service/1.jpg" class="service__image">
                 <span class="service__label js-service-t">Комплексний супровід Horeca</span>

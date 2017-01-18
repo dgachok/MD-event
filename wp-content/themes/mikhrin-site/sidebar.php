@@ -13,11 +13,11 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 ?>
 
 <aside class="sidebar js-sidebar">
-<!--	<a href="--><?php //echo get_home_url().'/services-horeca/'?><!--" class="sidebar-block js-sidebar-block sidebar-block--active js-horeca" data-type="1">-->
-<!--			<img class="sidebar-block__img" src="/wp-content/themes/mikhrin-site/images/service/1.jpg" alt="">-->
-<!--			<span class="sidebar-block__title">Комплексний супровід Horeca</span>-->
-<!--			<div class="sidebar-block__additional"></div>-->
-<!--	</a>-->
+	<a href="<?php echo get_home_url().'/services-horeca/'?>" class="sidebar-block js-sidebar-block sidebar-block--active js-horeca" data-type="1">
+			<img class="sidebar-block__img" src="/wp-content/themes/mikhrin-site/images/service/1.jpg" alt="">
+			<span class="sidebar-block__title">Комплексний супровід Horeca</span>
+			<div class="sidebar-block__additional"></div>
+	</a>
 	<a href="<?php echo get_home_url().'/services-private/'?>" class="sidebar-block js-sidebar-block js-private" data-type="0">
 			<img class="sidebar-block__img" src="/wp-content/themes/mikhrin-site/images/service/2.jpg" alt="">
 			<span class="sidebar-block__title">Приватні та корпоративні заходи</span>
